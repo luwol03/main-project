@@ -1,3 +1,4 @@
 [submodule "my-submodule"]
 	path = my-submodule
 	url = ../../luwol03/my-submodule.git
+	branch = master
