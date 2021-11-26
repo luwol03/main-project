@@ -21,6 +21,9 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+  repository_dispatch:
+    types: [synchronize-remote]
+
 jobs:
   check:
     runs-on: ubuntu-latest
